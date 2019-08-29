@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Firefox WebReplay</title>
+    <link rel="stylesheet" href="./styles.css"></link>
+    <link rel="manifest" href="/manifest.json">
+  </head>
+  <body>
+    
+    <header>
+    <div id="header-logo">
+      <div id="mozilla-logo"></div>
+      <a id="mozilla" href="/en-US/" data-link-name="mozilla home icon" data-link-type="nav">
+          Mozilla
+        </a>
+      <a id="webreplay-title">WebReplay</a>
+    </div>
+    <div id="header-links">
+      <a href="#">Technology</a>
+      <a href="#">Roadmap</a>
+      <a href="#">Slack</a>
+    </div>
+
+    </header>
+    
+    <div class="above-fold">
+      <div class="replay-logo"></div>
+      <div class="dotted-line"></div>
+      <h1>Timeless developer tools</h1>
+      <h2>Record, rewind, and replay  your application all without missing a beat.</h2>
+
+      <div class="demo">
+        <img src="/assets/screenshot.png"/>
+      </div>
+    </div>
+
+    
+  <div class="content">
+    <h3> Record in Real-Time</h3>
+    <p>Recording in WebReplay is similar to recording a video, except instead of capturing 60 frames a second, you’re recording System IO, which allows Firefox to re-execute every JS operation, network call, paint, and layout. </p>
+
+    <img class="progress" src="/assets/recording.png"/>
+    <h3> Scan the Recording</h3>
+    <p>
+      With WebReplay, every console.log, DOM event, and network call is like a breakpoint that you can rewind back to. 
+    </p>
+
+    <img class="progress" src="/assets/replay.png"/>
+    <h3> Share the Recording</h3>
+    <p>
+    
+    Debugging today is often a solitary and frustrating activity. With WebReplay,  you can upload the recording, share the url, and analyze it with a friend!
+    </p>
+</div>
+
+    <div class="mockup">
+      <div>
+        <a href="https://www.figma.com/file/TbhEgTKhCqXwRaYXFF27HW/webreplay-modulz?node-id=82%3A0"> figma link</a>
+      </div>
+    </div>
+    <script type="text/javascript" src="https://codesandbox.io/public/sse-hooks/sse-hooks.js"></script>
+  </body>
+</html>
