@@ -67,20 +67,23 @@ header a {
 }
 
 .above-fold h1 {
-  font-size: 38px;
-  font-weight: 400;
+  font-weight: 900;
+  font-size: 52px;
   margin: 0;
   margin-top: 20px;
+  font-family: "Zilla Slab", "open sans";
+  font-weight: "800";
+  text-align: center;
 }
 
-h2 {
-  font-size: 24px;
-  font-weight: 200;
+.above-fold h2 {
   margin: 0;
   margin-top: 15px;
-  margin-top: 15px;
   max-width: 560px;
+  font-family: "inter", "open sans";
   text-align: center;
+  font-weight: 400;
+  font-size: 26px;
 }
 
 .replay-logo {
